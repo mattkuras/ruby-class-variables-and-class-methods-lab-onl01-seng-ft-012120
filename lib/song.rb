@@ -9,6 +9,7 @@ end
 @@genres = []
 
 def self.genre_count
+  
 end 
 
 @@artists = []
