@@ -26,7 +26,7 @@ def initialize(name, artist, genre)
   @artist = artist 
   @genre = genre 
   @@song_count + 1 
-  if @@genres !.include?(genre)
+  if @@genres ! .include?(genre)
     @@genres << genre 
   @@artists + 1 
 end 
