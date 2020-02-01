@@ -19,6 +19,10 @@ def self.genre_count
     end
     genre_count
   end
+  
+def self.genres
+  @@genres.uniq
+end
 
 @@artists = []
 
@@ -36,7 +40,7 @@ def self.artist_count
 
 def self.artists
     @@artists.uniq
-  end
+end
 
 attr_accessor :name, :artist, :genre 
 
