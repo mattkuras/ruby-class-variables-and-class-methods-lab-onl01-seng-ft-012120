@@ -34,6 +34,9 @@ def self.artist_count
     artist_count
   end
 
+def self.artists
+    @@artists.uniq
+  end
 
 attr_accessor :name, :artist, :genre 
 
