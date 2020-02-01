@@ -14,7 +14,8 @@ end
 
 def self.genre_count
   genre_hash = {}
-  @@genres.each
+  @@genres.each do 
+    |
 
 @@artists = []
 
